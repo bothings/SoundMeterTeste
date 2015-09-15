@@ -38,7 +38,6 @@ public class SoundMeter {
         //listening to the user
         amplitude = mRecorder.getMaxAmplitude();
         return amplitude;
-
     }
 
     public double getAmplitudeEMA() {
